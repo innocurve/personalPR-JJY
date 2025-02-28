@@ -65,10 +65,10 @@ export const translations: TranslationDictionary = {
     zh: '郑振容',
   },
   title: {
-    ko: 'AI Agent|사단법인 운영위원',
-    en: 'AI Agent|Association Committee',
-    ja: 'AIエージェント|社団法人運営委員',
-    zh: 'AI代理|社团法人运营委员',
+    ko: 'AI Agent',
+    en: 'AI Agent',
+    ja: 'AIエージェント',
+    zh: 'AI代理',
   },
   birth: {
     ko: '출생',
@@ -89,22 +89,10 @@ export const translations: TranslationDictionary = {
     zh: '隶属',
   },
   affiliationDescription: {
-    ko: '이노커브 AI Agent\n(사)대한청년을세계로 운영위원',
+    ko: '이노커브 AI 에이전트\n(사)대한청년을세계로 운영위원',
     en: 'InnoCurve AI Agent\nAssociation Committee',
-    ja: 'イノカーブ AI Agent\n(社)韓国青年を世界へ 運営委員 ',
-    zh: 'InnoCurve AI Agent\n(社)韩国青年走向世界 运营委员',
-  },
-  education: {
-    ko: '학력',
-    en: 'Education',
-    ja: '学歴',
-    zh: '教育',
-  },
-  educationDescription: {
-    ko: '배재대학교 경영학과 학사',
-    en: "Paichai University, Bachelor of Business Administration",
-    ja: '培才大学 経営学部 学士',
-    zh: '培才大学 经营学院 学士',
+    ja: 'イノカーブ AI エージェント\n(社)韓国青年を世界へ 運営委員 ',
+    zh: 'InnoCurve AI 代理\n(社)韩国青年走向世界 运营委员',
   },
   field: {
     ko: '분야',
