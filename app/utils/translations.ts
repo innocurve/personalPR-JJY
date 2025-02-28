@@ -341,10 +341,10 @@ export const translations: TranslationDictionary = {
     zh: '请输入电子邮件',
   },
   greetingScript: {
-    ko: '안녕하세요!\n저는 이노카드 템플릿용으로 특별히 제작된 이노입니다.\n\n오늘 여러분께 인사드리게 되어 정말 기쁩니다.\n이 영상은 저희의 인사 영상 예시 자료로,\n이노카드 템플릿이 어떻게 여러분의 메시지를 멋지게\n전달할 수 있는지 보여드리기 위해 준비되었습니다.\n\n함께 새로운 경험을 시작해 보시길 바랍니다.\n감사합니다.',
-    en: 'nice to meet you!\nI am Inno, specially created for the InoCard template.\n\nI\'m delighted to greet you today.\nThis video serves as a sample for our greeting video,\ndemonstrating how the InoCard template\ncan beautifully convey your message.\n\nI hope you\'ll join us in experiencing something new.\nThank you!',
-    ja: 'こんにちは！\n私はイノカードのテンプレート用に特別に作られたイノです\n\n今日\n皆さんにご挨拶できることをとても嬉しく思います。\nこの動画は、イノカードのテンプレートがどのようにあなたのメッセージを美しく伝えることができるかを示すための挨拶動画のサンプルです。\n\nぜひ、新しい体験を一緒に始めてみましょう。\nありがとうございます',
-    zh: '你好！\n我是为 InnoCard 模板特别制作的 Ino。\n\n今天很高兴能向大家问好。\n这段视频是我们的问候视频示例，\n展示 InnoCard 模板如何优雅地传达您的信息。\n\n希望您能与我们一起开启新的体验。\n谢谢！'
+    ko: '안녕하세요, 정진용입니다.\n저는 이노커브에서 AI 에이전트로 활동하며,\n인공지능을 통해 더 나은 미래를 만드는 데 집중하고 있습니다.\n\nAI 기술은 단순한 자동화를 넘어,\n우리의 삶을 혁신하고 새로운\n가능성을 열어주는 강력한 도구입니다.\n특히, 저는 청년들이 AI를 활용해 더 큰 꿈을 꾸고,\n새로운 기회를 만들 수 있도록 돕고 싶습니다.\n\nAI는 이제 선택이 아니라 필수입니다.\n이 변화 속에서 저는 청년들과 함께 배우고, 성장하며,\n더 나은 세상을 만들어가는 데 기여하고 싶습니다.\n\n앞으로도 AI와 청년이 함께하는 미래를 위해\n최선을 다하겠습니다.\n함께 변화의 중심에서 새로운 가능성을 열어갑시다.\n감사합니다.',
+    en: 'nice to meet you,my name is Jin-Yong Jung.\nI am an AI agent at InnoCurve, focusing on creating a better future through artificial intelligence.\n\nAI technology goes beyond simple automation; it is a powerful tool that revolutionizes our lives and opens up new possibilities.In particular, I want to help young people utilize AI to dream bigger and create new opportunities.\n\nAI is no longer an option but a necessity.Amid this transformation, I strive to learn and grow alongside young people, contributing to a better world.\n\nI will continue to do my best for a future where AI and young people thrive together.Let’s stand at the center of change and unlock new possibilities together.\nThank you.',
+    ja: 'こんにちは、チョン・ジンヨンです。\n私はイノカーブでAIエージェントとして活動し、人工知能を通じてより良い未来を創ることに注力しています。\n\nAI技術は単なる自動化を超え、私たちの生活を革新し、新たな可能性を切り開く強力なツールです。特に、私は若者たちがAIを活用し、より大きな夢を描き、新しいチャンスを生み出せるよう支援したいと考えています。\n\nAIはもはや選択肢ではなく、必要不可欠なものです。この変革の中で、私は若者たちと共に学び、\n成長し、より良い世界を創ることに貢献したいと思います。\n\nこれからも、AIと若者が共に歩む未来のために全力を尽くします。変革の中心で、新しい可能性を共に切り開いていきましょう。\nありがとうございます。',
+    zh: '你好，我是郑振勇。\n我在 InnoCurve 担任 AI 代理，专注于通过人工智能创造更美好的未来。\n\nAI 技术不仅仅是自动化，它是一种强大的工具，能够改变我们的生活，并开启新的可能性。尤其是，我希望帮助年轻人利用 AI 追逐更伟大的梦想，并创造新的机遇。\n\nAI 现在已不是选择，而是必然趋势。在这场变革中，我希望与年轻人一起学习、成长，为创造更美好的世界贡献力量。\n\n我将继续全力以赴，推动 AI 与青年共创未来。让我们站在变革的中心，共同开启新的可能性。\n谢谢！'
   },
   affiliations_1: {
     ko: '이노커브',
