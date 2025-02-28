@@ -41,16 +41,16 @@ export const translations: TranslationDictionary = {
     zh: '价值观',
   },
   valuesDescription: {
-    ko: '우리는\n격동과 변혁의 시대\n한가운데에 서 있습니다.',
-    en: 'We stand\nin the midst of an era\nof turbulence and transformation.',
-    ja: '私たちは\n激動と変革の時代の\n真っ只中にいます。',
-    zh: '我们正处于\n变革与动荡时代的\n中心。',
+    ko: '우리를 앞으로 나아가게 하는 것은\n환경이 아니라,도전할 용기이다.',
+    en: 'What moves us forward\nis not the environment,but the courage to challenge.',
+    ja: '私たちを前に進めるのは\n環境ではなく、挑戦する勇気です。',
+    zh: '推动我们前进的不是环境，\n而是挑战的勇气。',
   },
   history: {
-    ko: '연혁',
-    en: 'History',
-    ja: '経歴',
-    zh: '历史',
+    ko: '인증 및 자격',
+    en: 'Certifications & Qualifications',
+    ja: '認定・資格',
+    zh: '认证及资格',
   },
   activities: {
     ko: '프로젝트',
@@ -59,16 +59,16 @@ export const translations: TranslationDictionary = {
     zh: '项目',
   },
   name: {
-    ko: '정이노',
-    en: 'Jeong Ino',
-    ja: 'イノ',
-    zh: 'Jeong Ino',
+    ko: '정진용',
+    en: 'Jeong Jinyong',
+    ja: '鄭振容',
+    zh: '郑振容',
   },
   title: {
-    ko: '이노카드 템플릿 · 기업인',
-    en: 'InnoCard Template · Entrepreneur',
-    ja: 'イノカードテンプレート · 企業家',
-    zh: 'InnoCard模板·企业家',
+    ko: 'AI Agent|사단법인 운영위원',
+    en: 'AI Agent|Association Committee',
+    ja: 'AIエージェント|社団法人運営委員',
+    zh: 'AI代理|社团法人运营委员',
   },
   birth: {
     ko: '출생',
@@ -77,10 +77,10 @@ export const translations: TranslationDictionary = {
     zh: '出生',
   },
   birthDate: {
-    ko: '2006년 1월 1일',
-    en: 'January 1, 2006',
-    ja: '2006年1月1日',
-    zh: '2006年1月1日',
+    ko: '1999년 3월 16일',
+    en: 'March 16, 1999',
+    ja: '1999年3月16日',
+    zh: '1999年3月16日',
   },
   affiliation: {
     ko: '소속',
@@ -89,10 +89,10 @@ export const translations: TranslationDictionary = {
     zh: '隶属',
   },
   affiliationDescription: {
-    ko: '이노카드 템플릿',
-    en: 'InnoCard Template',
-    ja: 'イノカードテンプレート',
-    zh: 'InnoCard模板',
+    ko: '이노커브 AI Agent\n(사)대한청년을세계로 운영위원',
+    en: 'InnoCurve AI Agent\nAssociation Committee',
+    ja: 'イノカーブ AI Agent\n(社)韓国青年を世界へ 運営委員 ',
+    zh: 'InnoCurve AI Agent\n(社)韩国青年走向世界 运营委员',
   },
   education: {
     ko: '학력',
@@ -101,10 +101,10 @@ export const translations: TranslationDictionary = {
     zh: '教育',
   },
   educationDescription: {
-    ko: '한국대학교 컴퓨터공학과 학사',
-    en: "Korea University, Bachelor of Computer Science",
-    ja: '韓国大学 コンピュータサイエンス学部 学士',
-    zh: '韩国大学 计算机科学与工程学院 学士',
+    ko: '배재대학교 경영학과 학사',
+    en: "Paichai University, Bachelor of Business Administration",
+    ja: '培才大学 経営学部 学士',
+    zh: '培才大学 经营学院 学士',
   },
   field: {
     ko: '분야',
@@ -113,10 +113,10 @@ export const translations: TranslationDictionary = {
     zh: '领域',
   },
   fieldDescription: {
-    ko: 'AI, 마케팅, 커뮤니케이션',
-    en: 'AI, Marketing, Communication',
-    ja: 'AI、マーケティング、コミュニケーション',
-    zh: 'AI，营销，沟通',
+    ko: 'AI, 청년',
+    en: 'AI, Youth',
+    ja: 'AI、青年',
+    zh: 'AI，青年',
   },
   mbti: {
     ko: 'MBTI',
@@ -125,10 +125,10 @@ export const translations: TranslationDictionary = {
     zh: 'MBTI',
   },
   mbtiType: {
-    ko: 'ENTJ',
-    en: 'ENTJ',
-    ja: 'ENTJ',
-    zh: 'ENTJ',
+    ko: 'ENFP',
+    en: 'ENFP',
+    ja: 'ENFP',
+    zh: 'ENFP',
   },
   contact: {
     ko: '문의',
@@ -221,10 +221,10 @@ export const translations: TranslationDictionary = {
     zh: '问候视频',
   },
   innoCardInquiry: {
-    ko: 'InnoCard\n문의',
-    en: 'InnoCard\nInquiry',
-    ja: 'InnoCard\nお問い合わせ',
-    zh: 'InnoCard\n咨询',
+    ko: '문의',
+    en: 'Inquiry',
+    ja: 'お問い合わせ',
+    zh: '咨询',
   },
   contactOptions: {
     ko: '연락하기',
@@ -317,16 +317,16 @@ export const translations: TranslationDictionary = {
     zh: '返回',
   },
   initialGreeting: {
-    ko: '안녕하세요! 저는 정이노입니다. 무엇을 도와드릴까요?',
-    en: 'Hello! I am Jeong Inno. How can I help you?',
-    ja: 'こんにちは！イノと申します。何かお手伝いできることはありますか？',
-    zh: '你好！我是Jeong Inno。我能为您做些什么？'
+    ko: '안녕하세요! 저는 정진용입니다. 무엇을 도와드릴까요?',
+    en: 'Hello! I am Jeong Jinyong. How can I help you?',
+    ja: 'こんにちは！鄭振容と申します。何かお手伝いできることはありますか？',
+    zh: '你好！我是郑振容。我能为您做些什么？'
   },
   cloneGreeting: {
-    ko: "안녕하세요! 저는 정이노's Clone입니다. 무엇을 도와드릴까요?",
-    en: "Hello! I'm Jeong Inno's Clone. How can I help you?",
-    ja: "こんにちは！イノのクローンです。どのようにお手伝いできますか？",
-    zh: "你好！我是Jeong Inno的克隆。我能为您做些什么？"
+    ko: "안녕하세요! 저는 정진용's Clone입니다. 무엇을 도와드릴까요?",
+    en: "Hello! I'm Jeong Jinyong's Clone. How can I help you?",
+    ja: "こんにちは！鄭振容のクローンです。どのようにお手伝いできますか？",
+    zh: "你好！我是郑振容的克隆。我能为您做些什么？"
   },
   formEmail: {
     ko: '이메일',
@@ -353,16 +353,10 @@ export const translations: TranslationDictionary = {
     zh: 'InnoCurve'
   },
   affiliations_2: {
-    ko: '추가 소속 기관',
-    en: 'Additional Affiliation',
-    ja: '追加所属',
-    zh: '附加隶属'
-  },
-  linkCopied: {
-    ko: '링크가 복사되었습니다',
-    en: 'Link copied to clipboard',
-    ja: 'リンクがコピーされました',
-    zh: '链接已复制'
+    ko: '(사)대한청년을세계로',
+    en: 'Korea Youth to the World',
+    ja: '(社)韓国青年を世界へ',
+    zh: '(社)韩国青年走向世界'
   },
   voiceChat: {
     ko: '음성 대화',

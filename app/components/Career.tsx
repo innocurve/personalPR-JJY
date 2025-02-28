@@ -1,142 +1,108 @@
 'use client'
 
 import { useState, useMemo } from 'react'
-import SophisticatedButton from './SophisticatedButton'
 import { useLanguage } from '../hooks/useLanguage'
+import { translate } from '../utils/translations'
 
-type YearHistory = {
-  [key: string]: string[]
-}
-
-type HistoryByLanguage = {
-  [key: string]: YearHistory
+type CertificationsByLanguage = {
+  [key: string]: { title: string; subtitle: string }[]
 }
 
 export default function Career() {
   const [isExpanded, setIsExpanded] = useState(false)
   const { language } = useLanguage()
 
-  const fullHistory: HistoryByLanguage = useMemo(() => ({
-    ko: {
-      "2025": [
-        "추가 예정"
-      ],
-      "2024": [
-        "추가 예정"
-      ],
-      "2023": [
-        "추가 예정"
-      ],
-      "2022": [
-        "추가 예정"
-      ],
-      "2021": [
-        "추가 예정"
-      ]
-    },
-    en: {
-      "2025": [
-        "추가 예정"
-      ],
-      "2024": [
-        "추가 예정"
-      ],
-      "2023": [
-        "추가 예정"
-      ],
-      "2022": [
-        "추가 예정"
-      ],
-      "2021": [
-        "추가 예정"
-      ]
-    },
-    ja: {
-      "2025": [
-        "추가 예정"
-      ],
-      "2024": [
-        "추가 예정"
-      ],
-      "2023": [
-        "추가 예정"
-      ],
-      "2022": [
-        "추가 예정"
-      ],
-      "2021": [
-        "추가 예정"
-      ]
-    },
-    zh: {
-      "2025": [
-        "추가 예정"
-      ],
-      "2024": [
-        "추가 예정"
-      ],
-      "2023": [
-        "추가 예정"
-      ],
-      "2022": [
-        "추가 예정"
-      ],
-      "2021": [
-        "추가 예정"
-      ]
-    }
+  const certifications: CertificationsByLanguage = useMemo(() => ({
+    ko: [
+      {
+        title: "AI활용전문가 1급",
+        subtitle: "주무부처: 과학기술정보통신부"
+      },
+      {
+        title: "인공지능(AI)전문가 1급",
+        subtitle: "주무부처: 과학기술정보통신부"
+      },
+      {
+        title: "챗GPT활용지도사 1급",
+        subtitle: "주무부처: 과학기술정보통신부"
+      }
+    ],
+    en: [
+      {
+        title: "AI Professional 1st Level",
+        subtitle: "Main Ministry: Ministry of Science and ICT"
+      },
+      {
+        title: "AI Expert 1st Level",
+        subtitle: "Main Ministry: Ministry of Science and ICT"
+      },
+      {
+        title: "ChatGPT Certified Guide 1st Level",
+        subtitle: "Main Ministry: Ministry of Science and ICT"
+      }
+    ],
+    ja: [
+      {
+        title: "AI活用専門家1級",
+        subtitle: "主務省: 科学技術情報通信部"
+      },
+      {
+        title: "人工知能(AI)専門家1級",
+        subtitle: "主務省: 科学技術情報通信部"
+      },
+      {
+        title: "ChatGPT活用指導者1級",
+        subtitle: "主務省: 科学技術情報通信部"
+      }
+    ],
+    zh: [
+      {
+        title: "AI应用专家1级",
+        subtitle: "主务省: 科学技術情報通信部"
+      },
+      {
+        title: "人工智能(AI)专家1级",
+        subtitle: "主务省: 科学技術情報通信部"
+      },
+      {
+        title: "ChatGPT活用指導者1級",
+        subtitle: "主務省: 科学技術情報通信部"
+      }
+    ]
   }), [])
 
-  const currentHistory = useMemo(() => {
-    return fullHistory[language] || fullHistory['ko']
-  }, [language, fullHistory])
+  const currentCertifications = useMemo(() => {
+    return certifications[language] || certifications['ko']
+  }, [language, certifications])
 
-  const years = useMemo(() => {
-    return Object.keys(currentHistory).sort((a, b) => parseInt(b) - parseInt(a))
-  }, [currentHistory])
-
-  const displayedYears = useMemo(() => {
-    return isExpanded ? years : years.filter(year => parseInt(year) >= 2024)
-  }, [isExpanded, years])
+  const displayedCertifications = useMemo(() => {
+    return isExpanded ? currentCertifications : currentCertifications.slice(0, 3)
+  }, [isExpanded, currentCertifications])
 
   return (
-    <section className="mb-4 px-4 md:px-6 lg:px-8" role="region" aria-label="경력 사항">
+    <section className="mb-4 px-4 md:px-6 lg:px-8" role="region" aria-label="자격 사항">
+      <h2 className="text-3xl font-bold text-center mb-8">
+        <span className="bg-gradient-to-r from-blue-600 via-blue-500 to-cyan-500 bg-clip-text text-transparent">
+          {translate('인증 및 자격', language)}
+        </span>
+      </h2>
       <div className="space-y-6">
-        {displayedYears.map((year, index) => (
-          <div 
-            key={year} 
-            className={`pb-4 ${index !== displayedYears.length - 1 ? 'border-b border-gray-200' : ''}`}
-            role="article"
-            aria-labelledby={`year-${year}`}
-          >
-            <h3 
-              id={`year-${year}`}
-              className="text-2xl md:text-3xl font-bold text-blue-600 mb-3"
+        <ul className="space-y-6" role="list">
+          {displayedCertifications.map((cert, index) => (
+            <li 
+              key={index} 
+              className="border-b border-gray-100 pb-4 last:border-b-0"
+              role="listitem"
             >
-              {year}
-            </h3>
-            <ul className="space-y-2 text-sm md:text-base" role="list">
-              {currentHistory[year]?.map((item: string, index: number) => (
-                <li 
-                  key={index} 
-                  className="text-gray-700 dark:text-gray-300 hover:text-gray-900 dark:hover:text-white transition-colors duration-200"
-                  role="listitem"
-                >
-                  {item}
-                </li>
-              ))}
-            </ul>
-          </div>
-        ))}
-      </div>
-      <div className="flex justify-center mt-6">
-        <SophisticatedButton 
-          expanded={isExpanded} 
-          onClick={() => setIsExpanded(!isExpanded)} 
-          language={language}
-          aria-expanded={isExpanded}
-          aria-controls="career-history"
-        />
+              <h3 className="text-sm sm:text-base md:text-lg font-semibold text-[#4B6BF5] mb-1 whitespace-nowrap overflow-hidden text-ellipsis">
+                {cert.title}
+              </h3>
+              <p className="text-xs sm:text-sm text-gray-600">
+                {cert.subtitle}
+              </p>
+            </li>
+          ))}
+        </ul>
       </div>
     </section>
   )
