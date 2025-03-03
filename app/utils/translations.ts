@@ -65,7 +65,7 @@ export const translations: TranslationDictionary = {
     zh: '郑振容',
   },
   title: {
-    ko: 'AI Agent',
+    ko: 'AI 에이전트',
     en: 'AI Agent',
     ja: 'AIエージェント',
     zh: 'AI代理',
