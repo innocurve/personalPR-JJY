@@ -25,6 +25,10 @@ export default function Career() {
       {
         title: "챗GPT활용지도사 1급",
         subtitle: "주무부처: 과학기술정보통신부"
+      },
+      {
+        title: "마케팅기획 전문가",
+        subtitle: "주무부처: 과학기술정보통신부"
       }
     ],
     en: [
@@ -38,6 +42,10 @@ export default function Career() {
       },
       {
         title: "ChatGPT Certified Guide 1st Level",
+        subtitle: "Main Ministry: Ministry of Science and ICT"
+      },
+      {
+        title: "Marketing Planning Specialist",
         subtitle: "Main Ministry: Ministry of Science and ICT"
       }
     ],
@@ -53,6 +61,10 @@ export default function Career() {
       {
         title: "ChatGPT活用指導者1級",
         subtitle: "主務省: 科学技術情報通信部"
+      },
+      {
+        title: "マーケティング計画専門家",
+        subtitle: "主務省: 科学技術情報通信部"
       }
     ],
     zh: [
@@ -66,6 +78,10 @@ export default function Career() {
       },
       {
         title: "ChatGPT活用指導者1級",
+        subtitle: "主務省: 科学技術情報通信部"
+      },
+      {
+        title: "マーケティング計画専門家",
         subtitle: "主務省: 科学技術情報通信部"
       }
     ]
